@@ -61,3 +61,4 @@ setuptools
 wheel
 
 audioop-lts
+langchain-mistralai
