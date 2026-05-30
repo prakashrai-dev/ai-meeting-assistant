@@ -77,3 +77,4 @@ certifi
 mutagen
 pycryptodomex
 ```
+torchvision
