@@ -61,4 +61,9 @@ setuptools
 wheel
 
 audioop-lts
+
+# LangChain Integrations
+
 langchain-mistralai
+langchain-chroma
+langchain-huggingface
