@@ -1,0 +1,61 @@
+# Core App Framework
+streamlit
+
+# Audio / Video Processing
+yt-dlp
+pydub
+ffmpeg-python
+
+# Speech-to-Text
+openai-whisper
+torch
+torchaudio
+
+# Translation
+deep-translator
+
+# LangChain + LCEL
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Mistral API
+mistralai
+
+# RAG / Vector DB
+chromadb
+sentence-transformers
+huggingface-hub
+
+# PDF Export
+fpdf
+
+# Data Handling
+pandas
+numpy
+
+# Environment Variables
+python-dotenv
+
+# Tokenization / Utilities
+tiktoken
+
+# File Upload Handling
+python-multipart
+
+# Optional Faster Whisper Alternative
+faster-whisper
+
+# Optional Better Embeddings Backend
+transformers
+
+# HTTP Requests
+requests
+
+# Logging / Utilities
+tqdm
+
+# Compatibility Fixes
+setuptools
+wheel
