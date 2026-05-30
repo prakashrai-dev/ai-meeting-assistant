@@ -161,16 +161,35 @@ if st.button("🚀 Process Meeting"):
 
         st.warning("Please provide a valid input source.")
 
-    else:
 
-        with st.spinner("Processing meeting with AI..."):
+else:
+
+    with st.spinner("Processing meeting with AI..."):
+
+        try:
 
             st.session_state.result = run_pipeline(
                 source,
                 language
             )
 
-        st.success("Meeting Processed Successfully ✅")
+            st.success("Meeting Processed Successfully ✅")
+
+        except Exception as e:
+
+            st.error(
+                "⚠️ Failed to process YouTube link.\n\n"
+                "YouTube sometimes blocks cloud requests.\n\n"
+                "Please try:\n"
+                "- another video\n"
+                "- a shorter video\n"
+                "- or upload the file directly."
+            )
+
+            st.stop()
+
+
+
 
 # ---------------- RESULTS ---------------- #
 

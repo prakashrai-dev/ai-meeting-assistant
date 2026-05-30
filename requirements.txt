@@ -69,3 +69,11 @@ langchain-chroma
 langchain-huggingface
 
 protobuf==3.20.3
+
+```txt id="0yz80i"
+websockets
+brotli
+certifi
+mutagen
+pycryptodomex
+```
